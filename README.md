@@ -20,8 +20,6 @@ naver CentOS외의 환경 (GCP, mac 등..) 에서는 yum 대신 homebrew / apt-g
 
 - sudo vim /etc/profile
 
----
-
 ```
 export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-1.el7_9.x86_64 // readlink 명령어로 얻은 경로 참조
 export CLASSPATH=$JAVA_HOME/jre/lib:$JAVA_HOME/lib/tools.jar
@@ -34,8 +32,6 @@ export PATH=$PATH:$JAVA_HOME/bin:$GRADLE_HOME/bin
 ---
 
 - source /etc/profile
-
----
 
 - git clone https://github.com/edicom000111/JDA-Bot.git
 
