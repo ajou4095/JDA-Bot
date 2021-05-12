@@ -33,7 +33,7 @@ export PATH=$PATH:$JAVA_HOME/bin:$GRADLE_HOME/bin
 
 ---
 
-- source /etc/profile
+- ~~source /etc/profile~~ 환경변수를 /etc/profile 외의 경로에 했다면 했을때 사용해야하고, ssh 실행할때마다 명령어를 입력해야 환경변수가 적용됨.
 
 - git clone https://github.com/edicom000111/JDA-Bot.git
 
