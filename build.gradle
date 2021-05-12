@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id'application'
+    id'com.github.johnrengelman.shadow' version '5.2.0'
+    id 'org.jetbrains.kotlin.jvm' version '1.4.32'
+}
+
+group 'com.ray.bot'
+mainClassName = 'com.ray.bot.MainActivity'
+version '1.0'
+sourceCompatibility = targetCompatibility = 1.8
+
+repositories {
+    google()
+    jcenter()
+    mavenCentral()
+    maven { // on kotlin dsl use `maven("https://m2.dv8tion.net/releases")` instead
+        name 'm2-dv8tion'
+        url "https://m2.dv8tion.net/releases"
+    }
+}
+
+dependencies {
+    implementation "io.reactivex.rxjava3:rxjava:3.0.12"
+    implementation "net.dv8tion:JDA:4.2.1_253"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+}
+
+
+
+compileJava.options.encoding = 'UTF-8'
