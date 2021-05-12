@@ -46,3 +46,7 @@ export PATH=$PATH:$JAVA_HOME/bin:$GRADLE_HOME/bin
 # 네이버 서버
 
 ssh root@외부아이피 -p 포트
+
+# 관련 포스트
+
+https://edicom000111.github.io/2021-04-29-JDA/
