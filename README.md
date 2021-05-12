@@ -37,7 +37,7 @@ export PATH=$PATH:$JAVA_HOME/bin:$GRADLE_HOME/bin
 
 - git clone https://github.com/edicom000111/JDA-Bot.git
 
-- cd HV-Discord-bot
+- cd JDA-Bot
 
 - nohup gradle run --args='봇토큰' &
 
